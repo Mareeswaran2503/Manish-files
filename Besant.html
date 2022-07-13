@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Besant Enquery</title>
+    <link rel="stylesheet" href="../Besant enquery/Besant.css">
+</head>
+<body>
+    <h1> BESANT ENQUERY</h1>
+    <fieldset>
+        <legend>Employee Details</legend>
+    <form>
+        <input type="Employee ID" id="employeeId" placeholder="Employee ID" oninput="handleFirstName()"></br>
+        <p id="employeIdError"></p>
+        <input type="text"  id="firstname"name="firstName" placeholder="  First Name"></br>
+        <input  id="lastname" type="lastname" name="age" required placeholder="lastname"></br>
+        <input id="text"   id="Skills" placeholder="Skills"></br>
+        <input type="text" id="Location" placeholder="Location"></br>
+        <input type="file" id="profile" required onchange="handlefile(event)" accept="image/gif, image/jpeg, image/png">
+    </br>
+        <button onclick="handlesubmit()">submit</button>
+
+    </form>
+</fieldset>
+    <script src="../Besant enquery/Besant.js"></script>
+</body>
+</html>

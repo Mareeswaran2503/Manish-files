@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: rgb(8, 244, 248);
+    background-color: rgb(245, 12, 12);
+}
+h1:hover{
+    color:yellow;
+}
+input{
+    margin: 10px;
+    margin-left: 10px; 
+    outline: none;
+}
+fieldset{
+    text-align: center;
+}
+p{
+    color:red;
+}
